@@ -1,0 +1,541 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
+  ],
+  "id": "hotosm_tha_railways-osm",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          98.3870473,
+          6.021306
+        ],
+        [
+          104.862696,
+          6.021306
+        ],
+        [
+          104.862696,
+          20.0108292
+        ],
+        [
+          98.3870473,
+          20.0108292
+        ],
+        [
+          98.3870473,
+          6.021306
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    98.3870473,
+    6.021306,
+    104.862696,
+    20.0108292
+  ],
+  "properties": {
+    "oex:category": "railways",
+    "oex:source": "osm",
+    "oex:dataset_source": "OpenStreetMap (Geofabrik THA 2026-10-13)",
+    "oex:snapshot": "2026-10-13",
+    "oex:boundary": "geoBoundaries gbOpen ADM0",
+    "oex:version": "0.4.16",
+    "oex:pcode_source_date": "2025-07-29",
+    "oex:geometry_types": {
+      "LINESTRING": 5721,
+      "POINT": 660,
+      "POLYGON": 2
+    },
+    "title": "Railways of Thailand",
+    "description": "6,383 features: 5,721 lines, 660 points, 2 polygons. 3 of 11 attributes are filled for at least half of the features.",
+    "license": "ODbL-1.0",
+    "created": "2026-10-14T05:58:07Z",
+    "keywords": [
+      "facilities-infrastructure",
+      "geodata",
+      "railways",
+      "transportation"
+    ],
+    "providers": [
+      {
+        "name": "OpenStreetMap (Geofabrik THA 2026-10-13)",
+        "roles": [
+          "producer",
+          "licensor"
+        ]
+      }
+    ],
+    "proj:code": "EPSG:4326",
+    "table:row_count": 6383,
+    "table:primary_geometry": "geom",
+    "table:columns": [
+      {
+        "name": "id",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 6383,
+        "oex:top_values": []
+      },
+      {
+        "name": "name",
+        "type": "VARCHAR",
+        "oex:null_count": 2836,
+        "oex:null_percent": 44.43,
+        "oex:distinct_count": 685,
+        "oex:top_values": [
+          {
+            "value": "สายใต้",
+            "count": 955
+          },
+          {
+            "value": "ทางรถไฟสายเด่นชัย–เชียงราย–เชียงของ",
+            "count": 274
+          },
+          {
+            "value": "สายตะวันออกเฉียงเหนือ",
+            "count": 270
+          },
+          {
+            "value": "ทางรถไฟสายตะวันออก",
+            "count": 254
+          },
+          {
+            "value": "สายเหนือ",
+            "count": 188
+          }
+        ]
+      },
+      {
+        "name": "name_en",
+        "type": "VARCHAR",
+        "oex:null_count": 3418,
+        "oex:null_percent": 53.55,
+        "oex:distinct_count": 665,
+        "oex:top_values": [
+          {
+            "value": "Southern Line",
+            "count": 973
+          },
+          {
+            "value": "Den Chai–Chiang Khong Line",
+            "count": 274
+          },
+          {
+            "value": "Northeastern Line",
+            "count": 270
+          },
+          {
+            "value": "Northern Line",
+            "count": 204
+          },
+          {
+            "value": "Kaeng Khoi - Bua Yai segment",
+            "count": 74
+          }
+        ]
+      },
+      {
+        "name": "name_th",
+        "type": "VARCHAR",
+        "oex:null_count": 3282,
+        "oex:null_percent": 51.42,
+        "oex:distinct_count": 448,
+        "oex:top_values": [
+          {
+            "value": "สายใต้",
+            "count": 952
+          },
+          {
+            "value": "ทางรถไฟสายเด่นชัย–เชียงราย–เชียงของ",
+            "count": 274
+          },
+          {
+            "value": "สายตะวันออกเฉียงเหนือ",
+            "count": 270
+          },
+          {
+            "value": "ทางรถไฟสายตะวันออก",
+            "count": 254
+          },
+          {
+            "value": "สายเหนือ",
+            "count": 188
+          }
+        ]
+      },
+      {
+        "name": "railway",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 2,
+        "oex:top_values": [
+          {
+            "value": "rail",
+            "count": 5721
+          },
+          {
+            "value": "station",
+            "count": 662
+          }
+        ]
+      },
+      {
+        "name": "ele",
+        "type": "VARCHAR",
+        "oex:null_count": 6383,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "operator_type",
+        "type": "VARCHAR",
+        "oex:null_count": 6383,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "layer",
+        "type": "VARCHAR",
+        "oex:null_count": 4669,
+        "oex:null_percent": 73.15,
+        "oex:distinct_count": 5,
+        "oex:top_values": [
+          {
+            "value": "1",
+            "count": 1600
+          },
+          {
+            "value": "2",
+            "count": 41
+          },
+          {
+            "value": "3",
+            "count": 30
+          },
+          {
+            "value": "4",
+            "count": 22
+          },
+          {
+            "value": "-1",
+            "count": 21
+          }
+        ]
+      },
+      {
+        "name": "addr_full",
+        "type": "VARCHAR",
+        "oex:null_count": 6383,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "addr_city",
+        "type": "VARCHAR",
+        "oex:null_count": 6373,
+        "oex:null_percent": 99.84,
+        "oex:distinct_count": 10,
+        "oex:top_values": [
+          {
+            "value": "พัทยา บางละมุง",
+            "count": 1
+          },
+          {
+            "value": "อำเภอองครักษ์ จังหวัดนครนายก",
+            "count": 1
+          },
+          {
+            "value": "ตำบลบางละมุง",
+            "count": 1
+          },
+          {
+            "value": "ตำบลบางพระ อำเภอศรีราชา",
+            "count": 1
+          },
+          {
+            "value": "แขวงรองเมือง",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "source",
+        "type": "VARCHAR",
+        "oex:null_count": 6383,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "adm0_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 1,
+        "oex:top_values": [
+          {
+            "value": "THA",
+            "count": 6383
+          }
+        ]
+      },
+      {
+        "name": "adm0_name",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 1,
+        "oex:top_values": [
+          {
+            "value": "Thailand",
+            "count": 6383
+          }
+        ]
+      },
+      {
+        "name": "adm1_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 51,
+        "oex:top_values": [
+          {
+            "value": "TH10",
+            "count": 1110
+          },
+          {
+            "value": "TH77",
+            "count": 479
+          },
+          {
+            "value": "TH30",
+            "count": 305
+          },
+          {
+            "value": "TH90",
+            "count": 293
+          },
+          {
+            "value": "TH19",
+            "count": 280
+          }
+        ]
+      },
+      {
+        "name": "adm1_name",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 51,
+        "oex:top_values": [
+          {
+            "value": "Bangkok",
+            "count": 1110
+          },
+          {
+            "value": "Prachuap Khiri Khan",
+            "count": 479
+          },
+          {
+            "value": "Nakhon Ratchasima",
+            "count": 305
+          },
+          {
+            "value": "Songkhla",
+            "count": 293
+          },
+          {
+            "value": "Saraburi",
+            "count": 280
+          }
+        ]
+      },
+      {
+        "name": "adm2_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 256,
+        "oex:top_values": [
+          {
+            "value": "TH1029",
+            "count": 216
+          },
+          {
+            "value": "TH1030",
+            "count": 202
+          },
+          {
+            "value": "TH9011",
+            "count": 146
+          },
+          {
+            "value": "TH2401",
+            "count": 138
+          },
+          {
+            "value": "TH3001",
+            "count": 118
+          }
+        ]
+      },
+      {
+        "name": "adm2_name",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 254,
+        "oex:top_values": [
+          {
+            "value": "Bang Sue",
+            "count": 216
+          },
+          {
+            "value": "Chatuchak",
+            "count": 202
+          },
+          {
+            "value": "Hat Yai",
+            "count": 146
+          },
+          {
+            "value": "Mueang Chachoengsao",
+            "count": 138
+          },
+          {
+            "value": "Mueang Nakhon Ratchasima",
+            "count": 118
+          }
+        ]
+      },
+      {
+        "name": "adm3_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 785,
+        "oex:top_values": [
+          {
+            "value": "TH102901",
+            "count": 211
+          },
+          {
+            "value": "TH103004",
+            "count": 145
+          },
+          {
+            "value": "TH100701",
+            "count": 110
+          },
+          {
+            "value": "TH901101",
+            "count": 100
+          },
+          {
+            "value": "TH300101",
+            "count": 89
+          }
+        ]
+      },
+      {
+        "name": "adm3_name",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 728,
+        "oex:top_values": [
+          {
+            "value": "Bang Sue",
+            "count": 211
+          },
+          {
+            "value": "Nai Mueang",
+            "count": 151
+          },
+          {
+            "value": "Chomphon",
+            "count": 145
+          },
+          {
+            "value": "Rong Mueang",
+            "count": 110
+          },
+          {
+            "value": "Hat Yai",
+            "count": 100
+          }
+        ]
+      },
+      {
+        "name": "adm4_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 6383,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "adm4_name",
+        "type": "VARCHAR",
+        "oex:null_count": 6383,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "name_latin",
+        "type": "VARCHAR",
+        "oex:null_count": 2821,
+        "oex:null_percent": 44.2,
+        "oex:distinct_count": 683,
+        "oex:top_values": [
+          {
+            "value": "Southern Line",
+            "count": 974
+          },
+          {
+            "value": "Den Chai–Chiang Khong Line",
+            "count": 274
+          },
+          {
+            "value": "Northeastern Line",
+            "count": 270
+          },
+          {
+            "value": "thaangrthaifsaaytawan``k",
+            "count": 254
+          },
+          {
+            "value": "Northern Line",
+            "count": 204
+          }
+        ]
+      }
+    ],
+    "datetime": "2026-10-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "title": "Open Database License (ODC-ODbL)"
+    },
+    {
+      "rel": "root",
+      "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {}
+}
