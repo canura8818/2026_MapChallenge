@@ -4,7 +4,7 @@ Theme: Learn more about my home country, Thailand!
 
 | Day | Theme | Proposed idea |
 | --- | --- | --- |
-| 1 | Points | ([Bangkok mall locations](https://canura8818.github.io/2026_MapChallenge/Day1/)) |
+| 1 | Points | [Bangkok mall locations](https://canura8818.github.io/2026_MapChallenge/Day1/) |
 | 2 | Lines | Thailand train tracks |
 | 3 | Polygons |Farm lands in Northeast Thailand |
 | 4 | Clusters |  |
