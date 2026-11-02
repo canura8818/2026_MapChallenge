@@ -24,11 +24,12 @@ const dataLayer = L.geoJSON(data, {
   interactive: true,
 });
 
-dataLayer.bindTooltip(
+dataLayer.bindPopup(
   (layer) => {
-    const { name, area, image } = layer.feature.properties;
+    const { name, area, image, link } = layer.feature.properties;
     const imgTag = `<br><img src="${image}" style="width:200px;height:150px;object-fit:cover;display:block;margin-top:4px;border-radius:3px;"/>`;
-    return `<strong>${name}</strong><br>Area: ${area}${imgTag}`;
+    const sourceTag = link ? `<br>Source: <a href="${link}" target="_blank" rel="noopener noreferrer">View</a>` : "";
+    return `<strong>${name}</strong><br>Area: ${area}${sourceTag}${imgTag}`;
   },
   { maxWidth: 240, className: 'mall-tooltip', direction: 'top', opacity: 1 },
 );
