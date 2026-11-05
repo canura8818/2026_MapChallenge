@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>Asian Koel Sightings on eBird App</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "leaflet": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+        "d3": "https://cdn.jsdelivr.net/npm/d3@7/+esm"
+      }
+    }
+  </script>
+</head>
+
+<body>
+    <header>
+      <h1>Asian Koel Sightings on eBird App</h1>
+    </header>
+
+  <div id="map">
+    <div class="slider">
+      <label for="year" class="slider-label">
+        <span>2014</span>
+        <span id="year-value">2026</span>
+        <span>2026</span>
+      </label>
+      <input type="range" id="year" name="year" min="2014" max="2026" step="1" value="2026">
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="js/main.js"></script>
+
+  <footer>
+    <p>Only Asian Koel sightings that were accompanied by photos were displayed here.</p>
+    <p>Data from<a href="https://ebird.org/species/asikoe2/TH?continue" target="_blank" rel="noopener"></a> eBird by Cornell Lab of Ornithology</p>
+  </footer>
+</body>
+</html>
